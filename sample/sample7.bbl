@@ -1,0 +1,102 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{ {Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
+  {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
+  {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
+  {Barbary}, {Muna}, {Ferguson}, {Grollier}, {Parikh}, {Nair}, {Unther},
+  {Deil}, {Woillez}, {Conseil}, {Kramer}, {Turner}, {Singer}, {Fox}, {Weaver},
+  {Zabalza}, {Edwards}, {Azalee Bostroem}, {Burke}, {Casey}, {Crawford},
+  {Dencheva}, {Ely}, {Jenness}, {Labrie}, {Lim}, {Pierfederici}, {Pontzen},
+  {Ptak}, {Refsdal}, {Servillat}, \& {Streicher}}]{2013A&A...558A..33A}
+{Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
+  \bibinfo{title}{{Astropy: A community Python package for astronomy},} \aap,
+  558, A33, \dodoi{10.1051/0004-6361/201322068}
+
+\bibitem[{ {Astropy Collaboration} {et~al.}(2018){Astropy Collaboration},
+  {Price-Whelan}, {Sip{\H{o}}cz}, {G{\"u}nther}, {Lim}, {Crawford}, {Conseil},
+  {Shupe}, {Craig}, {Dencheva}, {Ginsburg}, {VanderPlas}, {Bradley},
+  {P{\'e}rez-Su{\'a}rez}, {de Val-Borro}, {Aldcroft}, {Cruz}, {Robitaille},
+  {Tollerud}, {Ardelean}, {Babej}, {Bach}, {Bachetti}, {Bakanov}, {Bamford},
+  {Barentsen}, {Barmby}, {Baumbach}, {Berry}, {Biscani}, {Boquien}, {Bostroem},
+  {Bouma}, {Brammer}, {Bray}, {Breytenbach}, {Buddelmeijer}, {Burke},
+  {Calderone}, {Cano Rodr{\'\i}guez}, {Cara}, {Cardoso}, {Cheedella}, {Copin},
+  {Corrales}, {Crichton}, {D'Avella}, {Deil}, {Depagne}, {Dietrich}, {Donath},
+  {Droettboom}, {Earl}, {Erben}, {Fabbro}, {Ferreira}, {Finethy}, {Fox},
+  {Garrison}, {Gibbons}, {Goldstein}, {Gommers}, {Greco}, {Greenfield},
+  {Groener}, {Grollier}, {Hagen}, {Hirst}, {Homeier}, {Horton}, {Hosseinzadeh},
+  {Hu}, {Hunkeler}, {Ivezi{\'c}}, {Jain}, {Jenness}, {Kanarek}, {Kendrew},
+  {Kern}, {Kerzendorf}, {Khvalko}, {King}, {Kirkby}, {Kulkarni}, {Kumar},
+  {Lee}, {Lenz}, {Littlefair}, {Ma}, {Macleod}, {Mastropietro}, {McCully},
+  {Montagnac}, {Morris}, {Mueller}, {Mumford}, {Muna}, {Murphy}, {Nelson},
+  {Nguyen}, {Ninan}, {N{\"o}the}, {Ogaz}, {Oh}, {Parejko}, {Parley}, {Pascual},
+  {Patil}, {Patil}, {Plunkett}, {Prochaska}, {Rastogi}, {Reddy Janga},
+  {Sabater}, {Sakurikar}, {Seifert}, {Sherbert}, {Sherwood-Taylor}, {Shih},
+  {Sick}, {Silbiger}, {Singanamalla}, {Singer}, {Sladen}, {Sooley},
+  {Sornarajah}, {Streicher}, {Teuben}, {Thomas}, {Tremblay}, {Turner},
+  {Terr{\'o}n}, {van Kerkwijk}, {de la Vega}, {Watkins}, {Weaver}, {Whitmore},
+  {Woillez}, {Zabalza}, \& {Astropy Contributors}}]{2018AJ....156..123A}
+{Astropy Collaboration}, {Price-Whelan}, A.~M., {Sip{\H{o}}cz}, B.~M., {et~al.}
+  2018, \bibinfo{title}{{The Astropy Project: Building an Open-science Project
+  and Status of the v2.0 Core Package},} \aj, 156, 123,
+  \dodoi{10.3847/1538-3881/aabc4f}
+
+\bibitem[{ {Astropy Collaboration} {et~al.}(2022){Astropy Collaboration},
+  {Price-Whelan}, {Lim}, {Earl}, {Starkman}, {Bradley}, {Shupe}, {Patil},
+  {Corrales}, {Brasseur}, {N{\"o}the}, {Donath}, {Tollerud}, {Morris},
+  {Ginsburg}, {Vaher}, {Weaver}, {Tocknell}, {Jamieson}, {van Kerkwijk},
+  {Robitaille}, {Merry}, {Bachetti}, {G{\"u}nther}, {Aldcroft},
+  {Alvarado-Montes}, {Archibald}, {B{\'o}di}, {Bapat}, {Barentsen},
+  {Baz{\'a}n}, {Biswas}, {Boquien}, {Burke}, {Cara}, {Cara}, {Conroy},
+  {Conseil}, {Craig}, {Cross}, {Cruz}, {D'Eugenio}, {Dencheva}, {Devillepoix},
+  {Dietrich}, {Eigenbrot}, {Erben}, {Ferreira}, {Foreman-Mackey}, {Fox},
+  {Freij}, {Garg}, {Geda}, {Glattly}, {Gondhalekar}, {Gordon}, {Grant},
+  {Greenfield}, {Groener}, {Guest}, {Gurovich}, {Handberg}, {Hart},
+  {Hatfield-Dodds}, {Homeier}, {Hosseinzadeh}, {Jenness}, {Jones}, {Joseph},
+  {Kalmbach}, {Karamehmetoglu}, {Ka{\l}uszy{\'n}ski}, {Kelley}, {Kern},
+  {Kerzendorf}, {Koch}, {Kulumani}, {Lee}, {Ly}, {Ma}, {MacBride}, {Maljaars},
+  {Muna}, {Murphy}, {Norman}, {O'Steen}, {Oman}, {Pacifici}, {Pascual},
+  {Pascual-Granado}, {Patil}, {Perren}, {Pickering}, {Rastogi}, {Roulston},
+  {Ryan}, {Rykoff}, {Sabater}, {Sakurikar}, {Salgado}, {Sanghi}, {Saunders},
+  {Savchenko}, {Schwardt}, {Seifert-Eckert}, {Shih}, {Jain}, {Shukla}, {Sick},
+  {Simpson}, {Singanamalla}, {Singer}, {Singhal}, {Sinha}, {Sip{\H{o}}cz},
+  {Spitler}, {Stansby}, {Streicher}, {{\v{S}}umak}, {Swinbank}, {Taranu},
+  {Tewary}, {Tremblay}, {de Val-Borro}, {Van Kooten}, {Vasovi{\'c}}, {Verma},
+  {de Miranda Cardoso}, {Williams}, {Wilson}, {Winkel}, {Wood-Vasey}, {Xue},
+  {Yoachim}, {Zhang}, {Zonca}, \& {Astropy Project
+  Contributors}}]{2022ApJ...935..167A}
+{Astropy Collaboration}, {Price-Whelan}, A.~M., {Lim}, P.~L., {et~al.} 2022,
+  \bibinfo{title}{{The Astropy Project: Sustaining and Growing a
+  Community-oriented Open-source Project and the Latest Major Release (v5.0) of
+  the Core Package},} \apj, 935, 167, \dodoi{10.3847/1538-4357/ac7c74}
+
+\bibitem[{E. {Bertin} \& S. {Arnouts}(1996){Bertin} \&
+  {Arnouts}}]{1996A&AS..117..393B}
+{Bertin}, E., \& {Arnouts}, S. 1996, \bibinfo{title}{{SExtractor: Software for
+  source extraction.},} \aaps, 117, 393, \dodoi{10.1051/aas:1996164}
+
+\bibitem[{L. {Corrales}(2015){Corrales}}]{2015ApJ...805...23C}
+{Corrales}, L. 2015, \bibinfo{title}{{X-Ray Scattering Echoes and Ghost Halos
+  from the Intergalactic Medium: Relation to the Nature of AGN Variability},}
+  \apj, 805, 23, \dodoi{10.1088/0004-637X/805/1/23}
+
+\bibitem[{G.~J. {Ferland} {et~al.}(2013){Ferland}, {Porter}, {van Hoof},
+  {Williams}, {Abel}, {Lykins}, {Shaw}, {Henney}, \&
+  {Stancil}}]{2013RMxAA..49..137F}
+{Ferland}, G.~J., {Porter}, R.~L., {van Hoof}, P.~A.~M., {et~al.} 2013,
+  \bibinfo{title}{{The 2013 Release of Cloudy},} \rmxaa, 49, 137.
+\newblock \doarXiv{1302.4485}
+
+\bibitem[{R.~J. {Hanisch} \& C.~D. {Biemesderfer}(1989){Hanisch} \&
+  {Biemesderfer}}]{1989BAAS...21..780H}
+{Hanisch}, R.~J., \& {Biemesderfer}, C.~D. 1989, in \baas, 780
+
+\bibitem[{L. {Lamport}(1994){Lamport}}]{lamport94}
+{Lamport}, L. 1994, {LaTeX: A Document Preparation System}, 2nd edn.
+  (Addison-Wesley Professional)
+
+\end{thebibliography}
