@@ -1,5 +1,5 @@
 %% AASJournal.bst June 3, 2019
-%%
+%% 
 %% Revision 1.18 2019/6/3 Amy Hendrickson
 %% Took out `v' preceding version number in @misc
 %%
