@@ -1,8 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%  AASTEX7.cls                                   %%
-%%  March, 2024                                   %% 
+%%  AASTEX701.cls                                 %%
+%%  May, 2025                                     %% 
 %%                                                %%
-%%  Copyright 2024 American Astronomical Society  %%
+%%  Copyright 2025 American Astronomical Society  %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \def\currversion{7}
@@ -91,7 +91,7 @@
 %%%                       2) To support the existing functionalities utilized the RevTeX4-2 macros 
 %%%
 \ProvidesClass{aastex7}%%%
- [2025/02/06 Version 7/AAS markup document class]%
+ [2025/05/09 Version 7.0.1/AAS markup document class]%
 {}
 \ClassInfo{aastex}{%
 ^^J^^J
@@ -5566,7 +5566,7 @@ ltxgrid%
 \DeclareOption{noeprint}{\@booleanfalse\eprint@enable@sw}%
 \@booleantrue\eprint@enable@sw
 \DeclareOption{onecolumn}{\@booleanfalse\twocolumn@sw\onecolstyletrue}%
-\DeclareOption{twocolumn}{\@booleantrue\twocolumn@sw\onecolstylefalse\@twocolumntrue\@two@coltrue\twelvepointfalse}%
+\DeclareOption{twocolumn}{\onecolstylefalse\@twocolumntrue\@two@coltrue\twelvepointfalse}%
 \@booleanfalse\twocolumn@sw
 \def\select@column@grid{%
  \twocolumn@sw{%
@@ -7197,7 +7197,7 @@ ltxgrid%
 \def\IfUnDef#1{\expandafter\ifx\csname#1\endcsname\relax}
 % Null command needed to eat its argument
 \def\NullCom#1{}
-\def\begin#1{%
+\protected\def\begin#1{%
 % if defined \BeforeBeg for this environment, execute it
 \IfUnDef{BeforeBeg#1}\else\csname BeforeBeg#1\endcsname\fi%
 \IfUnDef{AfterBeg#1}% This is done to skip the command for environments
@@ -7317,7 +7317,7 @@ ltxgrid%
 \raggedright
 {\sc Draft version \today}\\[2pt]
 {\footnotesize
-Typeset using \LaTeX\ {\bf modern} style in AASTeX7}
+Typeset using \LaTeX\ {\bf modern} style in AASTeX7.0.1}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 }
 \else
@@ -7326,7 +7326,7 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX7}
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 {\footnotesize\textsc{\@journalinfo}}\par
-{\footnotesize Typeset using \LaTeX\ {\bf preprint2} style in AASTeX7}
+{\footnotesize Typeset using \LaTeX\ {\bf preprint2} style in AASTeX7.0.1}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 \else
 %%
@@ -7335,28 +7335,28 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX7}
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 {\footnotesize\textsc{\@journalinfo}}\par
-{\footnotesize Typeset using \LaTeX\ {\bf twocolumn} style in AASTeX7}
+{\footnotesize Typeset using \LaTeX\ {\bf twocolumn} style in AASTeX7.0.1}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 \else
 \preprintsty@sw{
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 {\footnotesize\textsc{\@journalinfo}}\par
-{\footnotesize Typeset using \LaTeX\ {\bf preprint} style in AASTeX7}
+{\footnotesize Typeset using \LaTeX\ {\bf preprint} style in AASTeX7.0.1}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 }{
   \manuscriptsty@sw{%
     \vspace*{-\headsep}\vspace*{\headheight}
     \footnotesize
         {\footnotesize\textsc{\@journalinfo}}\par
-        {\footnotesize Typeset using \LaTeX\ {\bf manuscript} style in AASTeX7}
+        {\footnotesize Typeset using \LaTeX\ {\bf manuscript} style in AASTeX7.0.1}
         \par\vspace*{-\baselineskip}\vspace*{0.625in}
   }{
 %% Default
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 {\footnotesize\textsc{\@journalinfo}}\par
-{\footnotesize Typeset using \LaTeX\ {\bf default} style in AASTeX7}%% default style
+{\footnotesize Typeset using \LaTeX\ {\bf default} style in AASTeX7.0.1}%% default style
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 }}
 \fi\fi\fi
@@ -7436,9 +7436,9 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX7}
 \newcounter{front@matter@foot@note}\setcounter{front@matter@foot@note}{0}
 
 
-\def\affil@error#1{\@latex@error{^^J^^J^^J^^JThe compiler quit because AASTeX v7 requires all authors to have an affiliation. Please edit your latex file to include a \string\affiliation\space command with  author "#1".^^J^^J^^J^^J}\@ehc\stop}
+\def\affil@error#1{\@latex@error{^^J^^J^^J^^JThe compiler quit because AASTeX v7.0.1 requires all authors to have an affiliation. Please edit your latex file to include a \string\affiliation\space command with  author "#1".^^J^^J^^J^^J}\@ehc\stop}
 
-\def\email@error#1{\@latex@error{^^J^^J^^J^^JThe compiler quit because AASTeX v7 requires all authors to have an email address. Please edit your latex file to include a \string\email\space command with author "#1".^^J^^J^^J^^J}\@ehc\stop}
+\def\email@error#1{\@latex@error{^^J^^J^^J^^JThe compiler quit because AASTeX v7.0.1 requires all authors to have an email address. Please edit your latex file to include a \string\email\space command with author "#1".^^J^^J^^J^^J}\@ehc\stop}
 
 
 \iflongauthor%
@@ -7674,6 +7674,7 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX7}
 \fi%
    \if@two@col%
    \twocolumngrid%
+   \@booleantrue\twocolumn@sw%
    \fi%
 \fi%
 \tempsectnum=\the\c@section%
@@ -13297,7 +13298,8 @@ Please fix, or don't use square bracket argument with
 
 %%%
 \def\frontmatter@maketitle{%
-\onecolumngrid\ifnumlines\linenumbers\fi
+  \ifnumlines\linenumbers\fi
+  \onecolumngrid
 \@author@finish
 \ifthenelse{\equal{\@cofirstauthor}{yes}}{\cofirstauthor}{}%
 %
@@ -13792,7 +13794,7 @@ by-18pt\relax#1}}
 %% Will make line numbering work on math as it would without amsmath.
 \def\fixmathlinenumbering{
 \let\saveopensqbracket\[
-\def\[{\linenomath\saveopensqbracket}
+\def\[{\saveopensqbracket\linenomath}
 \let\saveequation\equation
 \let\saveendequation\endequation
 %%

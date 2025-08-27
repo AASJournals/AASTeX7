@@ -5,6 +5,7 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+% type= article
 \bibitem[{ {Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
   {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
   {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
@@ -17,6 +18,7 @@
   \bibinfo{title}{{Astropy: A community Python package for astronomy},} \aap,
   558, A33, \dodoi{10.1051/0004-6361/201322068}
 
+% type= article
 \bibitem[{ {Astropy Collaboration} {et~al.}(2018){Astropy Collaboration},
   {Price-Whelan}, {Sip{\H{o}}cz}, {G{\"u}nther}, {Lim}, {Crawford}, {Conseil},
   {Shupe}, {Craig}, {Dencheva}, {Ginsburg}, {VanderPlas}, {Bradley},
@@ -45,6 +47,7 @@
   and Status of the v2.0 Core Package},} \aj, 156, 123,
   \dodoi{10.3847/1538-3881/aabc4f}
 
+% type= article
 \bibitem[{ {Astropy Collaboration} {et~al.}(2022){Astropy Collaboration},
   {Price-Whelan}, {Lim}, {Earl}, {Starkman}, {Bradley}, {Shupe}, {Patil},
   {Corrales}, {Brasseur}, {N{\"o}the}, {Donath}, {Tollerud}, {Morris},
@@ -74,16 +77,19 @@
   Community-oriented Open-source Project and the Latest Major Release (v5.0) of
   the Core Package},} \apj, 935, 167, \dodoi{10.3847/1538-4357/ac7c74}
 
+% type= article
 \bibitem[{E. {Bertin} \& S. {Arnouts}(1996){Bertin} \&
   {Arnouts}}]{1996A&AS..117..393B}
 {Bertin}, E., \& {Arnouts}, S. 1996, \bibinfo{title}{{SExtractor: Software for
   source extraction.},} \aaps, 117, 393, \dodoi{10.1051/aas:1996164}
 
+% type= article
 \bibitem[{L. {Corrales}(2015){Corrales}}]{2015ApJ...805...23C}
 {Corrales}, L. 2015, \bibinfo{title}{{X-Ray Scattering Echoes and Ghost Halos
   from the Intergalactic Medium: Relation to the Nature of AGN Variability},}
   \apj, 805, 23, \dodoi{10.1088/0004-637X/805/1/23}
 
+% type= article
 \bibitem[{G.~J. {Ferland} {et~al.}(2013){Ferland}, {Porter}, {van Hoof},
   {Williams}, {Abel}, {Lykins}, {Shaw}, {Henney}, \&
   {Stancil}}]{2013RMxAA..49..137F}
@@ -91,10 +97,14 @@
   \bibinfo{title}{{The 2013 Release of Cloudy},} \rmxaa, 49, 137.
 \newblock \doarXiv{1302.4485}
 
+% type= inproceedings
 \bibitem[{R.~J. {Hanisch} \& C.~D. {Biemesderfer}(1989){Hanisch} \&
   {Biemesderfer}}]{1989BAAS...21..780H}
-{Hanisch}, R.~J., \& {Biemesderfer}, C.~D. 1989, in \baas, 780
+{Hanisch}, R.~J., \& {Biemesderfer}, C.~D. 1989, \bibinfo{title}{{T$_{E}$X and
+  LAT$_{E}$X Macro Definition Files for Astronomical Publications},} in \baas,
+  780
 
+% type= book
 \bibitem[{L. {Lamport}(1994){Lamport}}]{lamport94}
 {Lamport}, L. 1994, {LaTeX: A Document Preparation System}, 2nd edn.
   (Addison-Wesley Professional)
